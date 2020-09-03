@@ -15,4 +15,5 @@ const server = http.createServer(respond);
 //listen to client requests on the specific port, the port should be available
 server.listen(port, () => {
   console.log(`listening on port: ${port}`);
+  console.log('waw le serveur est sur ecoute');
 });
